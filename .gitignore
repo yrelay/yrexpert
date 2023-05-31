@@ -1,0 +1,64 @@
+# Ne pas ajouter de dossiers de Autoconf
+autom4te.cache
+
+# Ne pas ajouter de dossiers de vagrant générée
+.vagrant/
+
+# Ne pas ajouter des scripts key générés
+EC2.sh
+Rackspace.sh
+
+# Ignorer les archives
+archive/
+archives/
+
+# Ignorer la version instable
+unstable/
+
+# Ignorer la version test
+testing/
+
+# Ignorer les logs
+log/
+*.log
+
+# Ignorer vscode
+.vscode
+yrexpert.code-workspace
+
+# Divers
+
+
+# Ne pas ajouter de magasin ExternalData ni de fichiers intermédiaires
+.ExternalData*
+
+# Sources compilées Python
+*.pyc
+
+# État local de Delphi et sorties de construction
+__history
+*.~*
+*.cbk
+*.cfg
+*.drc
+*.dsk
+*.dsm
+*.identcache
+*.local
+*.map
+*.dcu
+/BDK/D*/
+/CPRS/D*/
+/CPRS/Bin/
+
+# Fichiers de sortie de la commande GT.M JOB
+*.mjo
+*.mje
+*.py~
+
+# Fichiers IDE
+*.project
+*.pydevproject
+
+# Ignorer le build CMake
+build/

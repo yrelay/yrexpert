@@ -1,0 +1,24 @@
+#!----------------------------------------------------------------------------!
+#!                                                                            !
+#! YRExpert : (Your Yrelay) Système Expert                                    !
+#! Copyright (C) 2001-2023 par Hamid LOUAKED                                  !
+#!                                                                            !
+#!----------------------------------------------------------------------------!
+#
+#  
+
+# 22 mars 2023
+#
+
+;initialisation - désactivez la correspondance pour rendre les comparaisons plus indulgentes
+case match: off
+;set the title
+title: YREXPERT Cache Telnet Setup Verification
+logfile:<P1>
+;switch to the right namespace
+send: znspace "${YREXPERT_CACHE_NAMESPACE}"<CR>
+wait for:${YREXPERT_CACHE_NAMESPACE}>
+; close the log file
+closelog
+; exit the terminal
+terminate

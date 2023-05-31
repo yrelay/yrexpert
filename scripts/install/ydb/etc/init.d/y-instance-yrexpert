@@ -1,0 +1,109 @@
+#!/usr/bin/env bash
+#!----------------------------------------------------------------------------!
+#!                                                                            !
+#! YRexpert : (Your Yrelay) Système Expert sous Mumps GT.M et GNU/Linux       !
+#! Copyright (C) 2001-2015 by Hamid LOUAKED (HL).                             !
+#!                                                                            !
+#!----------------------------------------------------------------------------!
+
+# init script for YRexpert
+
+# Debian LSB info
+### BEGIN INIT INFO
+# Provides:          y-instance-yrexpert
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start YRExpert services at boot time
+# Description:       Starts/Stops YRExpert instances in a sane way.
+#                    Includes starting TaskMan.
+### END INIT INFO
+
+# Démarrer YRexpert
+start() {
+    # Variables d'environnement
+    # Ce chemin sera remplacé par le $y-basedir correspondant à l'instance YRExpert
+    # qui sera créée. Ce script devra avoir codé "en dur"
+    source /home/y-instance/etc/env
+
+    # Si la base de données s'est arrêtée proprement, il ne devrait rien avoir dans les
+    # journaux, afin que nous puissions la suite sans souci
+    echo "Rendre une base de données cohérente (mupip recover -backward)"
+    su $instance -c "source $y-basedir/etc/env && $ydb_dist/mupip journal -recover -backward $y-basedir/journals/YXP.mjl >> $y-basedir/log/recupererJournal.log 2>&1 && $y-basedir/scripts/activerJournal.sh -i $instance -p yxp"
+
+    # Réduire la base de données temporaire
+    echo "Réduire la base de données temporaire"
+    su $instance -c "source $y-basedir/etc/env && $ydb_dist/mupip rundown -region \"TEMP\" >> $y-basedir/log/reduireJournal.log"
+
+    # Start la routine gestion des tâches
+    echo "Démmarrage du gestionnaire de tâches"
+    su $instance -c "source $y-basedir/etc/env && cd $y-basedir/tmp && $ydb_dist/mumps -run START^TACHE"
+}
+stop() {
+    # Variables d'environnement
+    # Ce chemin sera remplacé par le $y-basedir correspondant à l'instance YRExpert
+    # qui sera créée. Ce script devra avoir codé "en dur"
+    source /home/y-instance/etc/env
+
+    # Stop  la routine gestion des tâches
+#    su $instance -c "source $y-basedir/etc/env && mumps -run ^%XCMD 'S U=\"^\" D STOP^TACHE' << EOF
+#Y
+#Y
+#Y
+#EOF"
+    su $instance -c "source $y-basedir/etc/env && mumps -run ^%XCMD 'S U=\"^\" D STOP^TACHE'"
+    
+    # Attendre que le gestionnaire de tâche ^TACHE stop
+    echo "Attendre que le gestionnaire de tâche ^TACHE s'arrête (30 sec)."
+    sleep 30
+
+    # Recherchez le processus de M et y mettre fin
+    processes=$(pgrep mumps)
+    if [ ! -z "${processes}" ] ; then
+        echo "Arrêt des processus M restants."
+        for i in ${processes}
+        do
+            mupip stop ${i}
+        done
+
+        # Attendre l'arrêt du processus mupip
+        sleep 5
+    fi
+
+    # Rechercher les processus M qui sont encore en cours d'exécution
+    processes=$(pgrep mumps)
+    if [ ! -z "${processes}" ] ; then
+        #TODO: journalisation nécessaire ici
+        echo "Les processus M encore en cours sont fermés de force !"
+        pkill -9 mumps
+    fi
+    
+    echo "Arrêt les processus de ${instance}."
+    sudo pkill -u ${instance}
+
+    echo "Arrêt les processus de ${instance}util."
+    sudo pkill -u ${instance}util
+
+    echo "Arrêt les processus de ${instance}prog."
+    sudo pkill -u ${instance}prog
+    
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart}"
+        ;;
+esac
+
+

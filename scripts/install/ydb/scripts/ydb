@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+#!----------------------------------------------------------------------------!
+#!                                                                            !
+#! YRExpert : (Your Yrelay) Système Expert                                    !
+#! Copyright (C) 2001-2023 par Hamid LOUAKED                                  !
+#!                                                                            !
+#!----------------------------------------------------------------------------!
+#
+# Détermine l'environnement de YDB
+#
+# 22 mars 2023
+#
+
+# Déterminer l'architecture du processeur
+arch=$(uname -m | tr -d _)
+if [ $arch == "x8664" ]; then
+    ydb_arch="x86_64"
+else
+    ydb_arch="i386"
+fi
+
+# Rechercher YDB:
+# Utiliser le chemin /usr/local/lib/yottadb
+# Par défaut YDB est installé sur /usr/local/lib/yottadb/{ydb_ver}
+# quand ydb_arch=(i386 | x86_64) pour linux
+
+# Déterminer le répertoire version de YDB
+ydbver=$(ls -1 /usr/local/lib/yottadb | tail -1)
+
+export ydb_gbldir=$HOME/.yottadb/$ydbver_$ydb_arch/g/yottadb.gld
+export ydb_dir=$HOME/.yottadb
+export ydb_rel=$ydbver_$ydb_arch
+export ydb_routines="$HOME/.yottadb/$ydbver_$ydb_arch/o*($HOME/.yottadb/$ydbver_$ydb_arch/r $HOME/.yottadb/r) /usr/local/lib/yottadb/$ydbver/libyottadbutil.so"
+export ydb_dist=/usr/local/lib/yottadb/$ydbver
+$ydb_dist/mumps -dir
+

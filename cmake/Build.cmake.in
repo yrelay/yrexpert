@@ -1,0 +1,17 @@
+;!----------------------------------------------------------------------------!
+;!                                                                            !
+;! YRExpert : (Your Yrelay) Système Expert                                    !
+;! Copyright (C) 2001-2022 par Hamid LOUAKED                                  !
+;!                                                                            !
+;!----------------------------------------------------------------------------!
+;
+;  
+
+; 22 mars 2022
+;
+
+message(STATUS "Construction de base sans outil de construction natif...")
+set(cmake_build_scripts "@cmake_build_scripts@")
+foreach(script ${cmake_build_scripts})
+  include(${script})
+endforeach()

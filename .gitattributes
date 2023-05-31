@@ -1,0 +1,39 @@
+# forcer les scripts shell pour avoir des fins de ligne UNIX
+*.sh text eol=lf
+yrexpert-js/config/init.d/yrexpert-js text eol=lf
+gtm/config/init.d/yrexpert text eol=lf
+
+
+.git*            export-ignore
+.hooks*          export-ignore
+
+
+*                text=auto
+*                whitespace=tab-in-indent
+*                conflict-marker-size=81
+
+# No whitespace checks in third-party content
+*.csv           -whitespace
+*.txt           -whitespace
+*.GBLs          -whitespace
+*.GBL           -whitespace
+*.KIDs          -whitespace
+*.KIDS          -whitespace
+*.KID           -whitespace
+*.kid           -whitespace
+*.kids          -whitespace
+*.TXTs          -whitespace
+*.TXT           -whitespace
+*.txts          -whitespace
+*.RSA           -whitespace
+*.JSON          -whitespace
+*.JS*           -whitespace
+*.js*           -whitespace
+*.jq*           -whitespace
+*.qs*           -whitespace
+*.ini           -whitespace
+
+# Restore checks in some files otherwise disabled above.
+CMakeLists.txt   whitespace=tab-in-indent
+
+/Scripts/GitSetup export-ignore

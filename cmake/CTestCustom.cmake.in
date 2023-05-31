@@ -1,0 +1,14 @@
+#!----------------------------------------------------------------------------!
+#!                                                                            !
+#! YRExpert : (Your Yrelay) Système Expert                                    !
+#! Copyright (C) 2001-2023 par Hamid LOUAKED                                  !
+#!                                                                            !
+#!----------------------------------------------------------------------------!
+#
+#  
+
+# 22 mars 2023
+#
+
+set(YREXPERT_HAVE_BUILD_TOOL "@YREXPERT_HAVE_BUILD_TOOL@")
+@YREXPERT_CTEST_BUILD_COMMAND_CODE@
