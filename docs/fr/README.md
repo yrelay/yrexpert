@@ -4,11 +4,6 @@
 
 ![yrexpert_logo.png](./yrexpert_logo.png)
 
-[![npm package](https://nodei.co/npm/yrexpert.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/yrexpert/)
-
-[![npm version][npm-image]][npm-url] [![npm license][license-image]][npm-url] [![npm downloads][downloads-image]][downloads-url] [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
-
 La présente arborescence fournit une collection intégrale d'instruments essentiels destinés à l'élaboration, à l'installation et à la maintenance de votre instance du système expert YRExpert. Elle est administrée et préservée par [YRelay](https://www.yrelay.fr) et est mise à disposition sous une licence open source. Cette itération incorpore diverses contributions provenant de la communauté open source, toutes minutieusement analysées et ratifiées.
 
 # Système expert YRExpert
@@ -35,11 +30,3 @@ Nous tenons à exprimer notre plus profonde gratitude envers l'ensemble de la co
 
 Voir le fichier [agpl-3.0 (en)](./agpl-3.0.md).
 
-
-
-[npm-image]: https://img.shields.io/npm/v/yrexpert.svg
-[license-image]: https://img.shields.io/npm/l/yrexpert.svg
-[npm-url]: https://npmjs.org/package/yrexpert
-
-[downloads-image]: https://img.shields.io/npm/dm/yrexpert.svg
-[downloads-url]: https://npmjs.org/package/yrexperthttps://
