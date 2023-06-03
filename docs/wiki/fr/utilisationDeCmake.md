@@ -1,4 +1,4 @@
-**Français** - [English](../en/README.md) - [中文](../zh/README.md) - [Espagnol](../sp/README.md) - [日本ais](../ja/README.md)
+[English](../en/README.md) - [Français](../fr/README.md) - [Español](../es/README.md) - [Deutsch](../de/README.md) - [中文](../zh/README.md) - [日本語](../ja/README.md)
 
 [README](./README.md) > [Documentations](./accueil.md) > **Présentation rapide de CMake**
 
