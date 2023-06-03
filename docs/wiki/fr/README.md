@@ -4,7 +4,7 @@
 
 ![yrexpert_logo.png](./yrexpert_logo.png)
 
-La présente arborescence fournit une collection intégrale d'instruments essentiels destinés à l'élaboration, à l'installation et à la maintenance de votre instance du système expert YRExpert. Elle est administrée et préservée par [YRelay](https://www.yrelay.fr) et est mise à disposition sous une licence open source. Cette itération incorpore diverses contributions provenant de la communauté open source, toutes minutieusement analysées et ratifiées.
+La présente arborescence fournit une collection ../wiki/ d'instruments essentiels destinés à l'élaboration, à l'installation et à la maintenance de votre instance du système expert YRExpert. Elle est administrée et préservée par [YRelay](https://www.yrelay.fr) et est mise à disposition sous une licence open source. Cette itération incorpore diverses contributions provenant de la communauté open source, toutes minutieusement analysées et ratifiées.
 
 # Système expert YRExpert
 

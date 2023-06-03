@@ -1,6 +1,6 @@
-[Français](./fr/README.md) - [English](./en/README.md) - [中文](./zh/README.md) - [Espagnol](./sp/README.md) - [日本ais](./ja/README.md)
+[Français](./wiki/fr/README.md) - [English](./wiki/en/README.md) - [中文](./wiki/zh/README.md) - [Espagnol](./wiki/sp/README.md) - [日本ais](./wiki/ja/README.md)
 
-![yrexpert_logo.png](./fr/yrexpert_logo.png)
+![yrexpert_logo.png](./wiki/fr/yrexpert_logo.png)
 
 # Your expert system YRExpert
 
@@ -16,7 +16,7 @@ For better organization, the main README file of the project is located in a sub
 
 To read the main README of the project, please follow the link below:
 
-[Navigate to the Main README](./en/README.md)
+[Navigate to the Main README](./wiki/en/README.md)
 
 We encourage you to read the main README before interacting with the project to understand how it works.
 
