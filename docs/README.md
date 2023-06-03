@@ -1,4 +1,4 @@
-[English](./en/README.md) - [Français](./fr/README.md) - [Español](./es/README.md) - [Deutsch](./de/README.md) - [中文](./zh/README.md) - [日本語](./ja/README.md)
+[English](./wiki/en/README.md) - [Français](./wiki/fr/README.md) - [Español](./wiki/es/README.md) - [Deutsch](./wiki/de/README.md) - [中文](./wiki/zh/README.md) - [日本語](./wiki/ja/README.md)
 
 ![yrexpert_logo.png](./wiki/fr/yrexpert_logo.png)
 
