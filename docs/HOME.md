@@ -1,4 +1,4 @@
-**Wiki** : [English](./wiki/en/README.md) - [Français](./wiki/fr/README.md) - [Español](./wiki/es/README.md) - [Deutsch](./wiki/de/README.md) - [中文](./wiki/zh/README.md) - [日本語](./wiki/ja/README.md)
+[English](./wiki/en/README.md) - [Français](./wiki/fr/README.md) - [Español](./wiki/es/README.md) - [Deutsch](./wiki/de/README.md) - [中文](./wiki/zh/README.md) - [日本語](./wiki/ja/README.md)
 
 [README](./README.md) > **Documentations**
 
