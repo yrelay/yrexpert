@@ -1,6 +1,6 @@
-[English](../en/README.md) - [Français](../fr/README.md) - [Español](../es/README.md) - [Deutsch](../de/README.md) - [中文](../zh/README.md) - [日本語](../ja/README.md)
+[English](./README_en.md) - [Français](./README_fr.md) - [Español](./README_es.md) - [Deutsch](./README_de.md) - [中文](./README_zh.md) - [日本語](./README_ja.md)
 
-[README](./README.md) > [Documentations](./accueil.md) > **Premiers pas avec YRExpert**
+[README](../../README.md) > [Documentations](../../HOME.md) > [Wiki](../HOME.md) > Premiers pas avec YRExpert
 
 ![yrexpert_logo.png](./yrexpert_logo.png)
 
