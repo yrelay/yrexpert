@@ -11,7 +11,7 @@ This wiki is a community resource for the YRExpert project. It contains informat
 ## Choose your language
 
 Please select your preferred language to view the wiki content in that language:
-./fr/
+
 - [English](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/en/home.md) - English documentation and resources.
 - [Français](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/fr/accueil.md) - Documentation et ressources en français.
 - [Español](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/es/inicio.md) - Documentación y recursos en español.
