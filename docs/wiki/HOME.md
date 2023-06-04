@@ -1,4 +1,4 @@
-[English](https://github.com/yrelay/yrexpert/blob/main/docs/README_en.md) - [Français](https://github.com/yrelay/yrexpert/blob/main/docs/README_fr.md) - [Español](https://github.com/yrelay/yrexpert/blob/main/docs/README_es.md) - [Deutsch](https://github.com/yrelay/yrexpert/blob/main/docs/README_de.md) - [中文](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/README_zh.md) - [日本語](https://github.com/yrelay/yrexpert/blob/main/docs/README_ja.md)
+[English](https://github.com/yrelay/yrexpert/blob/main/docs/README_en.md) - [Français](https://github.com/yrelay/yrexpert/blob/main/docs/README_fr.md) - [Español](https://github.com/yrelay/yrexpert/blob/main/docs/README_es.md) - [Deutsch](https://github.com/yrelay/yrexpert/blob/main/docs/README_de.md) - [中文](https://github.com/yrelay/yrexpert/blob/main/docs/README_zh.md) - [日本語](https://github.com/yrelay/yrexpert/blob/main/docs/README_ja.md)
 
 [README](https://github.com/yrelay/yrexpert/blob/main/docs/README.md) > [Documentations](https://github.com/yrelay/yrexpert/blob/main/docs/HOME.md) > Wiki
 
