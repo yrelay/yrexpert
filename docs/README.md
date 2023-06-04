@@ -18,7 +18,7 @@ For better organization, the main README file of the project is located in a sub
 
 To read the main README of the project, please follow the link below:
 
-[Navigate to the Main README](./wiki/en/README.md)
+[Navigate to the Main README](./README_en.md)
 
 We encourage you to read the main README before interacting with the project to understand how it works.
 
