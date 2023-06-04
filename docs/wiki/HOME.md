@@ -15,8 +15,8 @@ Please select your preferred language to view the wiki content in that language:
 - [English](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/en/home.md) - English documentation and resources.
 - [Français](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/fr/accueil.md) - Documentation et ressources en français.
 - [Español](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/es/inicio.md) - Documentación y recursos en español.
-- [Deutsch](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/de/empfang.md) - Dokumentation und Ressourcen auf Deutsch.
-- [中文](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/zh/huanyíng.md) - 中文文档和资源。
+- [Deutsch](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/de/startseite.md) - Dokumentation und Ressourcen auf Deutsch.
+- [中文](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/zh/shouye.md) - 中文文档和资源。
 - [日本語](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/ja/homu.md) - 日本語のドキュメントとリソース。
 
 Please click on the link corresponding to your language to access the wiki content in the chosen language.
