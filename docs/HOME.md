@@ -4,6 +4,6 @@
 
 ![yrexpert_logo.png](./wiki/fr/yrexpert_logo.png)
 
-## [Wiki YRExpert (en)](./wiki/HOME.md)
+* [Wiki YRExpert (en)](./wiki/HOME.md)
 
-## [Manuels (fr)](https://github.com/yrelay/yrexpert-documents/tree/master/manuels/French)
+* [Manuels (fr)](https://github.com/yrelay/yrexpert-documents/tree/master/manuels/French)
