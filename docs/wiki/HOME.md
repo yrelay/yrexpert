@@ -1,4 +1,4 @@
-[English](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/en/README.md) - [Français](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/fr/README.md) - [Español](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/es/README.md) - [Deutsch](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/de/README.md) - [中文](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/zh/README.md) - [日本語](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/ja/README.md)
+[English](https://github.com/yrelay/yrexpert/blob/main/docs/README_en.md) - [Français](https://github.com/yrelay/yrexpert/blob/main/docs/README_fr.md) - [Español](https://github.com/yrelay/yrexpert/blob/main/docs/README_es.md) - [Deutsch](https://github.com/yrelay/yrexpert/blob/main/docs/README_de.md) - [中文](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/README_zh.md) - [日本語](https://github.com/yrelay/yrexpert/blob/main/docs/README_ja.md)
 
 [README](https://github.com/yrelay/yrexpert/blob/main/docs/README.md) > [Documentations](https://github.com/yrelay/yrexpert/blob/main/docs/HOME.md) > Wiki
 
@@ -12,12 +12,12 @@ This wiki is a community resource for the YRExpert project. It contains informat
 
 Please select your preferred language to view the wiki content in that language:
 ./fr/
-- [English](https://github.com/yrelay/yrexpert//blob/main/docs/wiki/en/README.md) - English documentation and resources.
-- [Français](https://github.com/yrelay/yrexpert//blob/main/docs/wiki/fr/README.md) - Documentation et ressources en français.
-- [Español](https://github.com/yrelay/yrexpert//blob/main/docs/wiki/es/README.md) - Documentación y recursos en español.
-- [Deutsch](de) - Dokumentation und Ressourcen auf Deutsch.
-- [中文](https://github.com/yrelay/yrexpert/blob/main/docs/wiki/zh/README.md) - 中文文档和资源。
-- [日本語](ja) - 日本語のドキュメントとリソース。
+- [English](https://github.com/yrelay/yrexpert//blob/main/docs/README_en.md) - English documentation and resources.
+- [Français](https://github.com/yrelay/yrexpert//blob/main/docs/README_fr.md) - Documentation et ressources en français.
+- [Español](https://github.com/yrelay/yrexpert//blob/main/docs/README_es.md) - Documentación y recursos en español.
+- [Deutsch](https://github.com/yrelay/yrexpert//blob/main/docs/README_de.md) - Dokumentation und Ressourcen auf Deutsch.
+- [中文](https://github.com/yrelay/yrexpert/blob/main/docs/README_zh.md) - 中文文档和资源。
+- [日本語](https://github.com/yrelay/yrexpert//blob/main/docs/README_ja.md) - 日本語のドキュメントとリソース。
 
 Please click on the link corresponding to your language to access the wiki content in the chosen language.
 
